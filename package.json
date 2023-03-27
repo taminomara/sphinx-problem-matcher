@@ -1,8 +1,8 @@
 {
-  "name": "problem-matcher",
+  "name": "sphinx-problem-matcher",
   "version": "1.0.0",
   "private": true,
-  "description": "Sets up a problem matcher to create annotations for violations",
+  "description": "Attaches a problem matcher that looks for errors during Sphinx builds",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xt0rted/problem-matcher.git"
+    "url": "git+https://github.com/taminomara/sphinx-problem-matcher.git"
   },
   "keywords": [
     "actions",
@@ -21,7 +21,7 @@
     "problem-matcher",
     "annotations"
   ],
-  "author": "xt0rted",
+  "author": "taminomara",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0"

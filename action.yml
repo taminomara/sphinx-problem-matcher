@@ -1,4 +1,4 @@
-name: "Sphinx problem matcher continued"
+name: "Sphinx error reporter (problem matcher)"
 
 description: "Searches for problems in Sphinx output and reports them in PRs and action summaries"
 

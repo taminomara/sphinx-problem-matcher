@@ -1,11 +1,11 @@
-name: "Problem Matcher"
+name: "Sphinx problem matcher continued"
 
-description: "Sets up a problem matcher that's used to create annotations for violations"
+description: "Searches for problems in Sphinx output and reports them in PRs and action summaries"
 
-author: "xt0rted"
+author: "taminomara"
 
 branding:
-  icon: "command"
+  icon: "book"
   color: "green"
 
 inputs:

@@ -4,7 +4,7 @@
       "owner": "sphinx-problem-matcher",
       "pattern": [
         {
-          "regexp": "^(\\/.+?):(\\d+): (WARNING|ERROR): (.*)$",
+          "regexp": "^(\\/[^:]+):(\\d+): (WARNING|ERROR): (.*)$",
           "file": 1,
           "line": 2,
           "severity": 3,
@@ -16,7 +16,7 @@
       "owner": "sphinx-problem-matcher-autodoc",
       "pattern": [
         {
-          "regexp": "^(\\/.+?):(docstring of .*?: (WARNING|ERROR): .*)$",
+          "regexp": "^(\\/[^:]+):(docstring of .*?: (WARNING|ERROR): .*)$",
           "file": 1,
           "message": 2,
           "severity": 3
@@ -27,7 +27,7 @@
       "owner": "sphinx-problem-matcher-loose",
       "pattern": [
         {
-          "regexp": "(\\/.+?\\.rst): (WARNING|ERROR): (.*)$",
+          "regexp": "(\\/[^:]+\\.rst): (WARNING|ERROR): (.*)$",
           "file": 1,
           "severity": 2,
           "message": 3
